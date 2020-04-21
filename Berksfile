@@ -19,11 +19,19 @@ metadata
 cookbook 'apt', '~> 7.0'
 cookbook 'poise-python', '~> 1.7'
 
+<<<<<<< HEAD
 cookbook 'java'
 cookbook 'kagent', github: "logicalclocks/kagent-chef", branch: "1.0"
 cookbook 'hops', github: "logicalclocks/hops-hadoop-chef", branch: "1.0"
 cookbook 'ndb', github: "logicalclocks/ndb-chef", branch: "1.0"
 cookbook 'conda', github: "logicalclocks/conda-chef", branch: "1.0"
+=======
+cookbook 'java', '= 7.0.0'
+cookbook 'kagent', github: "giabbo79/kagent-chef", branch: "1.0"
+cookbook 'hops', github: "giabbo79/hops-hadoop-chef", branch: "1.0"
+cookbook 'ndb', github: "giabbo79/ndb-chef", branch: "1.0"
+cookbook 'conda', github: "giabbo79/conda-chef", branch: "1.0"
+>>>>>>> e92d1bc... update java cookbook
 
 cookbook 'hive2', github: "logicalclocks/hive-chef", branch: "1.0"
 
